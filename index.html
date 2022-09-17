@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="theme-001" id="bodyAll">
+    <main class="theme-2-all main-tudo">
+        <div class="header">
+            <span>Calculator</span>
+            <div class="theme theme1">
+                <div class="this">
+                    <span>theme</span>
+                </div>
+                <div class="second-div">
+                    <div class="themes-number">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                    </div>
+                        <input class="range" onchange="trocar()" type="range" name="" id="ranger" min="1" max="3" value="1">
+                </div>
+            </div>
+        </div>
+        <div class="input-show theme-2-body-screen">
+            <div class="theme-2-body-screen symbol" id="simbolo"></div>
+            <div class="result theme-2-body-screen result">
+                <span  id="display"></span>
+            </div>
+        </div>
+        <div class="buttons theme-2-body-main buttons-al">
+            <div class="first-line line" id="line01">
+                <button onclick="myTeste(7)" class="btn theme-2-keys-back">7</button>
+                <button onclick="myTeste(8)" class="btn theme-2-keys-back">8</button>
+                <button onclick="myTeste(9)" class="btn theme-2-keys-back">9</button>
+                <button onclick="apagar()" class="btns btn-del theme-2-keys-reset-back btn-dr" >del</button>
+            </div>
+            <div  class="second-line line" id="line02">
+                <button onclick="myTeste(4)" class="btn theme-2-keys-back">4</button>
+                <button onclick="myTeste(5)" class="btn theme-2-keys-back">5</button>
+                <button onclick="myTeste(6)" class="btn theme-2-keys-back">6</button>
+                <button onclick="calcular('+'), colocarSimbolo('+')" class="btn theme-2-keys-back">+</button>
+            </div>
+            <div class="third-line line" id="line03">
+                <button onclick="myTeste(1)" class="btn theme-2-keys-back">1</button>
+                <button onclick="myTeste(2)" class="btn theme-2-keys-back">2</button>
+                <button onclick="myTeste(3)" class="btn theme-2-keys-back">3</button>
+                <button onclick="calcular('-'), colocarSimbolo('-')" class="btn theme-2-keys-back">-</button>
+            </div>
+            <div class="fourth-line line" id="line04">
+                <button onclick="myTeste('.')" class="btn theme-2-keys-back">.</button>
+                <button onclick="myTeste(0)" class="btn theme-2-keys-back">0</button>
+                <button onclick="calcular('/'), colocarSimbolo('/')" class="btn theme-2-keys-back">/</button>
+                <button onclick="calcular('*'), colocarSimbolo('*')" class="btn theme-2-keys-back">*</button>
+            </div>
+            <div class="fifth-line line" id="line05">
+                <button onclick="reset()" class="btns bigger theme-2-keys-reset-back btn-dr">reset</button>
+                <button onclick="resultado()" class="btns bigger theme-2-keys-red-back key-red">=</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js.js"></script>
+    <script src="./changeTheme.js"></script>
+</body>
+</html>
