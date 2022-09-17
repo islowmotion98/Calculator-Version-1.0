@@ -1,0 +1,411 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+*{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+.btn{
+    font-size: 1.2em;
+}
+.main-tudo{
+    height: 520px;
+    width: 300px;
+    border-radius: 10px;
+}
+.buttons-al{
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.key-red{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    transition: 0.4s;
+}
+.btn-dr{
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+/* theme1 */
+.theme-1-keys-back{
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 2px 1px hsl(28, 16%, 65%);
+    transition: 0.4s;
+    color: hsl(221, 14%, 31%);
+}
+.theme-1-keys-red-back{
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 2px 1px hsl(6, 70%, 34%);
+    color: white;
+    transition: 0.4s;
+}
+.theme-1-keys-red-back:hover{
+    background-color: hsl(6, 63%, 55%);
+    transition: 0.4s;
+}
+.theme-1-keys-back:hover{
+    background-color: white;
+    transition: 0.4s;
+}
+.theme-1-keys-reset-back{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 2px 1px hsl(224, 28%, 35%);
+    color: white;
+    transition: 0.4s;
+}
+.theme-1-keys-reset-back:hover{
+    background-color: hsla(222, 45%, 76%, 1);
+    color: white;
+    transition: 0.4s;
+}
+.header *{
+    color: white;
+    transition: 0.4s;
+}
+.padrao{
+    background-color: transparent;
+}
+.theme{
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+.theme1{
+    background-color: transparent;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+/* theme 1 */
+/* theme 1 */
+/* theme 1 */
+/* theme 1 */
+/* theme 1 */
+/* theme 1 */
+.theme-001{
+    background: rgb(58,93,100);
+    background: linear-gradient(0deg, rgba(58,93,100,1) 13%, rgba(180,165,151,1) 65%);
+}
+.theme-001 main{
+    background-color: hsl(222, 26%, 31%);
+    overflow: hidden;
+    transition: 0.4s;
+}
+.theme-001 main .buttons{
+    background-color: hsl(223, 31%, 20%);
+    transition: 0.4s;
+}
+.theme-001 main .input-show, .theme-001 main .input-show div{
+    background-color: hsl(223, 31%, 20%);
+    transition: 0.4s;
+}
+.theme-001 main .buttons .line .btn{
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 2px 1px hsl(28, 16%, 65%);
+    color: hsl(221, 14%, 31%);
+    transition: 0.4s;
+}
+.theme-001 main .buttons .line .btn:hover{
+    background-color: white;
+    transition: 0.4s;
+}
+.theme-001 main .buttons .line .key-red{
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0px 2px 1px hsl(6, 70%, 34%);
+    color: white;
+}
+.theme-001 main .buttons .line .key-red:hover{
+    background-color: hsl(25, 98%, 55%);
+    transition: 0.4s;
+}
+.theme-001 main .buttons .line .btn-dr{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 3px 1px hsl(224, 28%, 35%);
+    color: white;
+    transition: 0.4s;
+}
+.theme-001 main .buttons .line .btn-dr:hover{
+    background-color: hsl(225, 21%, 69%);
+    color: white;
+    transition: 0.4s;
+}
+.theme-001 main .header *{
+    color: white;
+    transition: 0.4s;
+}
+.theme-001 main .header .theme .second-div input[type='range']::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    background-color: hsl(223, 31%, 20%);
+    accent-color: red;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input[type='range']::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+.theme-001 main .input-show *{
+    color: white;
+}
+/* theme 2 */
+/* theme 2 */
+/* theme 2 */
+/* theme 2 */
+/* theme 2 */
+/* theme 2 */
+/* theme 2 */
+.theme-002 main{
+    background-color: hsl(30, 25%, 92%);
+}
+.theme-002{
+    background: rgb(209,204,204);
+    background: linear-gradient(0deg, rgba(209,204,204,1) 43%, rgba(234,227,220,1) 82%);
+}
+.theme-002 main .buttons{
+    background-color: hsl(0, 5%, 81%);  
+}
+.theme-002 main .input-show, .theme-002 main .input-show div{
+    background-color: white;
+}
+.theme-002 main .buttons .line .btn{
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 4px 2px hsl(28, 16%, 65%);
+    transition: 0.4s;
+    color: hsl(221, 14%, 31%);
+}
+.theme-002 main .buttons .line .btn:hover{
+    background-color: white;
+    transition: 0.4s;
+}
+.theme-002 main .buttons .line .key-red{
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0px 2px 1px hsl(6, 70%, 34%);
+    color: white;
+}
+.theme-002 main .buttons .line .key-red:hover{
+    background-color: hsl(25, 98%, 55%);
+    transition: 0.4s;
+}
+.theme-002 main .buttons .line .btn-dr{
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0px 3px 1px hsl(185, 58%, 25%);
+    color: white;
+    transition: 0.4s;
+}
+.theme-002 main .buttons .line .btn-dr:hover{
+    background-color: hsl(185, 58%, 25%);
+    color: white;
+    transition: 0.4s;
+}
+.theme-002 main .header *{
+    color: hsl(60, 10%, 19%);
+}
+.theme-002 main .header .theme .second-div input[type='range']::-webkit-slider-runnable-track{
+    background-color: hsl(0, 5%, 81%) !important;
+    border-radius: 20px;
+}
+.theme-002 main .input-show *{
+    color: hsl(60, 10%, 19%);
+}
+/* theme 3 */
+/* theme 3 */
+/* theme 3 */
+/* theme 3 */
+/* theme 3 */
+/* theme 3 */
+.theme-003{
+    background: rgb(29,9,52);
+    background: linear-gradient(0deg, rgba(29,9,52,1) 2%, rgba(88,7,125,1) 45%);
+}
+.theme-003 main{
+    background-color: hsl(268, 75%, 15%);
+    overflow: hidden;
+}
+.theme-003 main .buttons{
+    background-color: hsl(268, 71%, 12%);
+}
+.theme-003 main .input-show, .theme-003  main .input-show div{
+    background-color: hsl(268, 71%, 12%);
+}
+.theme-003 main .buttons .line .btn{
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0px 3px 1px hsl(285, 91%, 52%);
+    color: hsl(52, 100%, 62%);
+    transition: 0.4s;
+}
+.theme-003 main .buttons .line .btn:hover{
+    background-color: hsl(285, 91%, 52%);
+    transition: 0.4s;
+}
+.theme-003 main .buttons .line .key-red{
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0px 3px 1px hsl(177, 92%, 70%);
+    color: black;
+}
+.theme-003 main .buttons .line .key-red:hover{
+    background-color: hsl(176, 100%, 54%);
+    transition: 0.4s;
+}
+.theme-003 main .buttons .line .btn-dr{
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0px 3px 1px hsl(224, 28%, 35%);
+    color: white;
+    transition: 0.4s;
+}
+.theme-003 main .buttons .line .btn-dr:hover{
+    background-color: hsl(285, 91%, 52%);
+    color: white;
+    transition: 0.4s;
+}
+.theme-003 main .header *{
+    color: hsl(52, 100%, 62%);
+}
+.theme-003 main .header .theme .second-div input[type='range']::-webkit-slider-runnable-track{
+    background-color: hsl(268, 71%, 12%) !important;
+    border-radius: 20px;
+}
+.theme-003 main .input-show *{
+    color: hsl(52, 100%, 62%);
+}
+/* 
+
+*/
+.symbol{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+    font-size: 1em;
+    height: 100%;
+}
+.result{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    font-size: 0.9em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    border-radius: 25px;
+}
+.header{
+    display: flex;
+    height: 90px;
+    width: 266px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-transform: lowercase;
+}
+.this{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+#display{
+    padding-right: 10px;
+}
+.themes-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+.themes-number span:nth-child(1){
+    padding-left: 7px;
+}
+.themes-number span:nth-child(2){
+    padding-left: 2px;
+}
+.themes-number span:nth-child(3){
+    padding-right: 3px;
+}
+.range{
+    width: 100%;
+}
+.line{
+    display: flex;
+}
+button{
+    height: 45px;
+    width: 45px;
+    margin: 7px;
+    border-radius: 7px;
+    border: none;
+}
+.bigger{
+    width: 100px;
+}
+.bigger:first-child{
+    margin-right: 6px;
+}
+.bigger:nth-child(2){
+    margin-left: 6px;
+}
+.input-show{
+    width: 266px;
+    height: 60px;
+    border-radius: 10px ;
+    margin-bottom: 6px; 
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+.input-show div{
+    border-radius: 10px;
+}
+@media screen and (min-width: 850px){
+    button{
+        width: 70px;
+    }
+    .header{
+        font-size: 1.3em;
+    }
+    .btn{
+        font-size: 1.7em;
+    }
+    .bigger:first-child{
+        margin-right: 7px;
+    }
+    .bigger:nth-child(2){
+        margin-left: 7px;
+    }
+    .bigger{
+        width: 154px;
+        font-size: 1.2em;
+    }
+    .btn-del{
+        font-size: 1.2em;
+    }
+    .input-show {
+        width: 366px;
+        height: 80px;
+        font-size: 2.3em;
+    }
+    .header{
+        width: 366px;
+    }
+    .main-tudo{
+        width: 410px;
+        height: 550px;
+    }
+}
